@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Baking Time</string>
+    <string name="ingredients">INGREDIENTS</string>
+    <string name="no_video_message">No Video Available</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="step_title_dummy_text">Start filling prep</string>
+    <string name="step_description_dummy_text">4. Beat together the nutella, mascarpone, 1 teaspoon of salt, and 1 tablespoon of vanilla on medium speed in a stand mixer or high speed with a hand mixer until fluffy.</string>
+    <string name="appwidget_text">Baking Time</string>
+    <string name="add_widget">Baking Time</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="ingredients_list">Ingredients List</string>
+    <string name="preference_file_key">Preference File Key</string>
+    <string name="last_viewed_recipe">Last Viewed Recipe</string>
+</resources>

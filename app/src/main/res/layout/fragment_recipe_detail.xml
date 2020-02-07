@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="@dimen/step_list_margin"
+    tools:context=".ui.RecipeDetailFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_ingredient_title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/ingredients"
+        android:textSize="@dimen/title_text_size"
+        tools:text="@string/ingredients" />
+
+    <TextView
+        android:id="@+id/tv_ingredient_list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/ingredient_text_size" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/step_list_recycler_view"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:name="com.example.android.bakingtime.StepListFragment"
+        tools:context=".ui.RecipeDetailFragment"
+        app:layoutManager="LinearLayoutManager" />
+
+</LinearLayout>
